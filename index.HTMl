@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenger SRT</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>Challenger SRT</h1>
+	<a href="about.html><img src="logo.png" alt = "logo"/>
+        <nav>
+            <a href="about.html">About Challenger SRT</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="content">
+        <h2>Welcome to the Challenger SRT website</h2>
+        <div class="gif-container">
+            <img src="gif.gif" alt="Challenger GIF" />
+        </div>
+        
+        <section id="about">
+            <h3>About Challenger SRT</h3>
+            <p>Challenger SRT is a high-performance sports car...</p>
+        </section>
+
+        <section id="features">
+            <h3>Features</h3>
+            <p>High power, excellent handling, modern technology...</p>
+        </section>
+
+        <section id="contact">
+            <h3>Contact</h3>
+            <p>If you have any questions, please contact us!</p>
+        </section>
+    </div>
+    
+    <div class="login-container">
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+
+        loginForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form behavior
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Check username and password
+            if (username === "123" && password === "123") {
+                alert("You have successfully logged in!");
+                // Hide the login form if necessary
+                loginForm.style.display = 'none';
+            } else {
+                alert("Incorrect username or password");
+            }
+        });
+    </script>
+</body>
+</html>

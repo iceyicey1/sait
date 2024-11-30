@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<header>
+        <h1>Challenger SRT</h1>
+        <nav>
+<a href="index.html">Main</a>
+            <a href="about.html">About Challenger SRT</a>
+            
+        </nav>
+    </header>
+
+    <h1>Contact Us</h1>
+<div class="frame">
+        <img src="dodge2.jpg"/300 alt="Monster"> <!-- Изменен размер изображения -->
+        Contact us for buy this monster
+    </div>
+ 
+
+    <form action="#" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="John Doe" required><br><br>
+
+        <label>Gender:</label><br>
+        <label><input type="radio" name="gender" value="male" checked> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="example@example.com" required><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa" selected>USA</option>
+            <option value="uk">UK</option>
+            <option value="RUSSIA">RUSSIA</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30">
+            Your message here...
+        </textarea><br><br>
+
+        <label>
+          <input type="checkbox" name="newsletter" value="yes"> Subscribe to newsletter
+        </label><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+<div>
+    <a href="us contacts.txt" target="_blank">Document with us contacts</a>
+</div>
+</body>
+</html>

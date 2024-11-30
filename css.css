@@ -1,0 +1,47 @@
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('challenger.jpg');
+            background-size: cover;
+            color: white;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        .gif-container {
+            margin: 20px 0;
+        }
+        .login-container {
+            width: 20%;
+            float: right;
+            margin: 20px;
+        }
+p {
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+ 
+  .frame img {
+            max-width: 300px; 
+            margin-right: 20px; 
+        }
+logo{
+max-width: 300px; 
+     
+}
